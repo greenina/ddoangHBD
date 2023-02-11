@@ -1,12 +1,16 @@
 body {
   background: #dcdcdc;
 }
+.main{
+  height: 500vh;
+}
 
-.main {
+.canvas {
   display: grid;
   height: 100vh;
   width: auto;
   animation: loading 0.5s linear;
+  /* margin-top: 10%; */
 }
 
 @keyframes loading {
