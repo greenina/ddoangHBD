@@ -61,7 +61,7 @@ const App = () => {
       </div>
       <div className="info">
         <div>Copyright © 2023 이놔쏭. All Rights Reserved. The website was designed by 이놔쏭 and built with <a href="https://react.org">React.js</a>, <a href="https://p5js.org/ko/">p5.js</a></div>
-        <div>This webpage is dedicated to <b>DDOANG(또앙) 🫖</b>, a Nice Coffee Pot, born on Feb 10, 2001</div>
+        <div>This webpage is dedicated to <b>DDOANG(앙또킴) 🫖</b>, a Nice Coffee Pot, born on Feb 10, 2001</div>
         Code script can be found <a href="https://github.com/greenina/ddoangHBD">here</a>
       </div>
     </div >

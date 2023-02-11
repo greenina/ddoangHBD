@@ -6,7 +6,7 @@ const Card = () => {
   // var cardFront=document.getElementsByClassName('cardFront').style.height;
   // var cardInside=document.getElementsByClassName('cardInside').style.height;
   // document.getElementsByClassName('cardFront').style.height=cardInside;
-  const password = "1234";
+  const password = process.env.REACT_APP_PWD;
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState();
   
@@ -28,7 +28,7 @@ const Card = () => {
   return (
     <div className="birthdayCard">
     <div className="cardFront">
-      <h3 className="happy">엉따(엉덩이따뜻해) 생일축하행</h3>
+      <h3 className="happy">🥳 엉따따 생일축하행 🥳</h3>
       {/* <div className="balloons">
         <div className="balloonOne" />
         <div className="balloonTwo" />
@@ -71,7 +71,8 @@ const Card = () => {
             이놔가!
           </p>
         </div>:
-        <div>
+        <div className="pwdform">
+          <div>암호 입력 시 편지 내용을 확인할 수 있습니다.</div>
           <form onSubmit={submitPassword}>
             <input type="text" value={input} onChange={enterPassword} />
             <input type="submit" value="제출"/>
