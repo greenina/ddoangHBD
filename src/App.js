@@ -35,13 +35,15 @@ const App = () => {
       <div className='birthcolor'>
       🎨 Birth Color of Feb. 10 is #EA618E <img className="colorimg"src={color}/>, Rose Red/Deep Blush
       </div>
+      <div className='noti'>아래 분홍색 여백에 글이 뜰 것이니, 10초 내외로 인내심을 가지고 기다려주세요 :)</div>
+      <div className='noti'>이후, 스크롤을 내려 버튼을 눌러보세요! (모바일📱보다는 PC 🖥 환경에서 보시길 권장합니다)</div>
+      
       <div class="bar">
         <span class="bar_content">
         엉따는 "엉덩이는 따뜻하게"의 줄임말으로, 동의어로는 "김다영", "주전자🫖", "따엉", 등이 있습니다.
-        </span>
-        <span className='bar_content'>
-        본 웹사이트는, 개발자가 부부부업정도 되는 엉따의 진실된 친구 이놔쏭이 갑자기 삘받아 엉따의 이십대 중반 진입 축하를 위해 갑자기 개발해벌인 누추한 웹사이트입니다. <br/>
-        궁금 안하겠지만 코드는 <a href="https://github.com/greenina/ddoangHBD">이곳</a>에서 확인 가능합니다. 
+        본 웹사이트는, 개발자가 부부부업정도 되는 엉따의 진실된 친구 이놔쏭이 갑자기 삘받아 엉따의 이십대 중반👵🏻 진입 축하를 위해 갑자기 개발해벌인 누추한 웹사이트🌐입니다.
+        궁금 안하겠지만 코드👩🏻‍💻는 가장 하단에서 확인 가능합니다. 키킼😝
+        
         </span>
       </div>
       <div className='canvas'>
@@ -57,10 +59,10 @@ const App = () => {
       <div id="letter">
         <Card/>        
       </div>
-      <div id="info">
-        <div>Copyright © 2023 Inhwa Song. All Rights Reserved. The website was designed by Inhwa Song and built with React.js, p5.js</div>
-        <div>This webpage is dedicated to DDOANG 🫖, a Nice Coffee Pot, born on Feb 10, 2001</div>
-        Code script can be found <a href="https://github.com/greenina">here</a>
+      <div className="info">
+        <div>Copyright © 2023 이놔쏭. All Rights Reserved. The website was designed by 이놔쏭 and built with <a href="https://react.org">React.js</a>, <a href="https://p5js.org/ko/">p5.js</a></div>
+        <div>This webpage is dedicated to <b>DDOANG(또앙) 🫖</b>, a Nice Coffee Pot, born on Feb 10, 2001</div>
+        Code script can be found <a href="https://github.com/greenina/ddoangHBD">here</a>
       </div>
     </div >
   )

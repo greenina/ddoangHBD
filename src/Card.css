@@ -31,13 +31,13 @@ body {
 }
 .emoji{
   text-align: center;
-  font-size: 200px;
+  font-size: 150px;
 }
 
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 80%;
+  width: 800px;
   height: 800px;
   overflow: hidden;
   transform-origin: left;
@@ -52,7 +52,7 @@ body {
 }
 
 .happy {
-  font-family: Tahoma, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
   margin: 20px;
   padding: 20px;
@@ -150,8 +150,8 @@ body {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 80%;
-  height: 500px;;
+  width: 800px;
+  height: 800px;;
   z-index: -1;
   left: 0;
   top: 0;
@@ -159,7 +159,7 @@ body {
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
+  font-family: 'Noto Sans', sans-serif;
   margin: 40px;
   color: #333;
 }
@@ -170,9 +170,16 @@ p {
   top: 200px;
   color: #333;
 }
+.letter-content{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 150%;
+  margin: 40px;
+  color: #333;
+}
 
 .back {
-  font-family: Tahoma, sans-serif;
+  line-height: 150%;
+  font-family: 'Noto Sans', sans-serif;
   color: #333;
   text-align: center;
   margin: 30px;
