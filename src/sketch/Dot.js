@@ -27,7 +27,7 @@ export default class Dot {
 
   show() {
     this.sketch.stroke(255);
-    this.sketch.fill(0);
+    this.sketch.fill(234, 97, 142);
     this.sketch.ellipse(this.position.x, this.position.y, this.radius, this.radius);
   }
 

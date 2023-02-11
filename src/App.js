@@ -4,6 +4,7 @@ import sketch from './sketch';
 import p5 from 'p5';
 import Card from './Card';
 import Images from './Image';
+import color from './assets/color.png'
 
 import { useState, useEffect, useRef } from 'react';
 import scrolldown from './assets/scrolldown.png'
@@ -29,22 +30,27 @@ const App = () => {
 
   return (
     <div className="main">
+      <div className='birthcolor'>
+      🎨 Birth Color of Feb. 10 is #EA618E <img className="colorimg"src={color}/>, Rose Red/Deep Blush
+      </div>
       <div className='canvas'>
         <div ref={canvasRef} />
       </div>
-      <div onClick={handleClickScroll}>
-        <div>눌러방</div>
-        <img src={scrolldown}/>
+
+      <div onClick={handleClickScroll} className="downbtn">
+        <div>🫖 눌러보시오 👇</div>
       </div>
-      <div id="down">
+      <div className="images">
+        <Images/>
       </div>
       <div id="letter">
         <Card/>        
       </div>
-      <div id="images">
-        <Images/>
+      <div id="info">
+        <div>Copyright © 2023 Inhwa Song. All Rights Reserved. The website was designed by Inhwa Song and built with React.js, p5.js</div>
+        <div>This webpage is dedicated to DDOANG 🫖, a Nice Coffee Pot, born on Feb 10, 2001</div>
+        Code script can be found <a href="https://github.com/greenina">here</a>
       </div>
-      
     </div >
   )
 }

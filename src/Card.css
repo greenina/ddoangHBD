@@ -9,7 +9,7 @@ body {
 .birthdayCard {
   position: relative;
   width: 80%;
-  height: 350px;
+  height: 800px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -29,12 +29,16 @@ body {
 .birthdayCard:hover .happy {
   visibility: hidden;
 }
+.emoji{
+  text-align: center;
+  font-size: 200px;
+}
 
 .cardFront {
   position: relative;
   background-color: #fff;
   width: 80%;
-  height: 350px;
+  height: 800px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -147,7 +151,7 @@ body {
   position: absolute;
   background-color: #fff;
   width: 80%;
-  height: 350px;
+  height: 500px;;
   z-index: -1;
   left: 0;
   top: 0;

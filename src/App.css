@@ -1,5 +1,16 @@
 body {
-  background: #dcdcdc;
+  background: #FFFBE6;
+}
+.birthcolor{
+  background-color: white;
+  padding-left: 1%;
+  font-size: 30px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  text-align: center;
+}
+.colorimg{
+  height: 30px;
 }
 .main{
   height: 500vh;
@@ -16,8 +27,20 @@ body {
 }
 .letter{
   display: inline-block;
+  height: 2000px;
   /* width: 50%;
   margin: 0 auto; */
+}
+.downbtn{
+  background-color: #F5BBCE;
+  /* opacity: 50%; */
+  text-align: center;
+  margin-bottom: 500px;
+  padding: 30px;
+  font-size: xx-large;
+}
+.images{
+  margin-bottom: 1000px;
 }
 
 
