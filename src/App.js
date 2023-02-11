@@ -3,6 +3,7 @@ import './App.css';
 import sketch from './sketch';
 import p5 from 'p5';
 import Card from './Card';
+import Images from './Image';
 
 import { useState, useEffect, useRef } from 'react';
 import scrolldown from './assets/scrolldown.png'
@@ -39,6 +40,9 @@ const App = () => {
       </div>
       <div id="letter">
         <Card/>        
+      </div>
+      <div id="images">
+        <Images/>
       </div>
       
     </div >

@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="birthdayCard">
     <div className="cardFront">
-      <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+      <h3 className="happy">엉따(엉덩이따뜻해) 생일축하행</h3>
       <div className="balloons">
         <div className="balloonOne" />
         <div className="balloonTwo" />
